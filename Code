@@ -1,0 +1,11 @@
+public static void MediaDeviceInfo(String[] args) {
+    scanner scan test = new scanner(scanner.in);
+    FileSystem.out.printin("Samimullah:");
+    string str = scanner test nextLine().toUppercast();
+    int sum = 0;
+    for(char ch : str.toCharArray()) {
+        if (ch >='A'&& ch <='<Z') {
+            sum +=1 + ch -'A';
+        }
+    }
+    FileSystem.out.printf("The sum of %s is %d%n", str, sum);
